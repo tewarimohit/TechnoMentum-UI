@@ -1,2 +1,2 @@
 # Project_TechnoMentum
-It talks about one's progress(Momentum) along with Technology.. 
+This UI is progressive with a sweet blend of Technology..
