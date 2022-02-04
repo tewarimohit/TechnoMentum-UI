@@ -1,0 +1,41 @@
+/* Default Page Layout */
+
+*,
+*::before,
+*::after {
+margin: 0;
+padding:0;
+border:0;
+}
+
+
+/* Heading Default */
+h1,h2,h3,h4,h5{
+    font-size: 62.5%;
+    font-weight: 400;
+}
+
+/* list */
+
+ul{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+}
+
+
+/* Anchor tag */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Media Tags */
+
+img,video{
+height: auto;
+max-width: 100%;
+
+}
