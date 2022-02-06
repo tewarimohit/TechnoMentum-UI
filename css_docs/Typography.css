@@ -1,0 +1,68 @@
+@import url('//db.onlinewebfonts.com/c/0aeda7b5aba01b5ceddd4492b6aecae5?family=Hobeaux+Rococeaux+Background');
+@import url('//db.onlinewebfonts.com/c/3472a29ae506df8291ece75a1f67c7f4?family=Booker');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+/* Root fonts  */
+
+
+.std-font-one{
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+.std-font-two{
+    font-family: 'Montserrat', sans-serif;
+}
+.fancy-font{
+    font-family: "Hobeaux Rococeaux Background";
+}
+.bookish-font{
+    font-family: "Booker";
+}
+.cursive-font{
+    font-family: 'Satisfy', cursive;
+}
+.hd-xl-font{
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, .3);
+}
+.hd-l-font{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, .3);
+}
+.hd-m-font{
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+.hd-s-font{
+    font-size: 1.5rem;
+    font-weight: 600;
+   
+}
+
+.para-s-font{
+    text-indent: 3rem;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+    line-height: 1.5rem;
+    white-space: normal;
+}
+.para-m-font{
+    text-indent: 3rem;
+    font-size: 1.1rem;
+    letter-spacing: .05rem;
+    line-height: 1.5rem;
+    white-space: normal;
+}
+.small-font{
+    letter-spacing: .05rem;
+    line-height: 1.1rem;
+}
+.letter-spacing-l{
+    letter-spacing: .1rem;
+}
+
+.letter-spacing-s{
+    letter-spacing: .05rem;
+}

@@ -1,0 +1,59 @@
+@import url('/utility.css');
+
+:root{
+    font-family: sans-serif;
+    font-size: 1rem2;
+}
+
+.chip-holder{
+   display: flex;
+   position: inline;
+   flex-wrap: wrap;
+}
+
+
+.chip{ 
+   margin: 10px;
+
+padding: .5rem 2.5rem;
+border-radius: 50px;
+
+}
+button{
+   position: absolute;
+    background-color: transparent;
+    border: none;
+    margin: -3px;
+}
+.close{
+    color: white;
+position: absolute;
+font-size: 50px;
+
+}
+.close:hover{
+   
+    background-color:grey;
+    cursor: pointer;
+    border-radius: 50%;
+    
+    }
+
+.chip-one{
+background-color: green;
+color:white;
+margin-right: 1.5px;
+}
+
+.chip-two{
+    background-color: orangered;
+    color:white
+    }
+    .chip-three{
+        background-color: blue;
+        color:white
+        }
+        .chip-four{
+            background-color: red;
+            color:white
+            }

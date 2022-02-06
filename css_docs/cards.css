@@ -1,0 +1,158 @@
+@import url('/utility.css');
+
+.card-grid{
+    margin-left: 20rem;
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+gap:1.5rem;
+align-items: flex-start;
+
+}
+
+
+.card {
+    
+   --padding:1rem;
+background: white;
+    border: 1px solid #777;
+    max-width: 300px;
+
+}
+
+.card.card-shadow{
+    border:none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.card-header {
+    padding: var(--padding);
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+
+}
+
+.card-header.card-image{
+overflow: hidden;
+padding: 0;
+
+}
+.card-header.card-image > img{
+   display: block;
+   width: 100%;
+   max-height: 200px;
+   margin-bottom: .5rem;
+   aspect-ratio: 16/9;
+   object-position: center;
+    }
+    .card-header.card-image > span{
+        margin-left: 1rem;
+        
+    }
+    .card-header.card-image.card-one > img{
+        display: block;
+        width: 100%;
+        max-height: 200px;
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+        aspect-ratio: 16/9;
+        object-position: center;
+         }
+
+    .card-header.card-image.card-two{
+        overflow: hidden;
+        position: relative;
+        padding: 0;
+        
+        }
+
+    .card-header.card-image.card-two > span{
+        position: absolute;
+        top: 8.5rem;
+        margin-left: 1rem;
+        color:white;
+        
+    }
+
+.card:hover > .card-header.card-image > img{
+
+    transform: scale(1.1);
+    transition: transform 300ms linear 200ms;
+}
+
+
+.card-body{
+font-size: 1rem;
+padding: 0 var(--padding);
+color: rgba(0,0,0,.54);;
+}
+
+.card-footer {
+    display: flex;
+    align-content: flex-start;
+    margin-top: 1rem;
+    padding: 3px;
+    padding-top: 0;
+}
+
+.read-btn {
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 800;
+    background: white;
+    border: none;
+    padding: .5em;
+    margin-right: .5rem;
+}
+
+.read-btn:hover {
+    color: var(--text-color);
+    font-weight: 800;
+    background: #90ee90;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+
+}
+
+.icons {
+
+    background-color: transparent;
+    border: none;
+    padding: .2rem;
+}
+
+.icons:hover {
+
+    background-color: #90ee90;
+    border-radius: 50%;
+
+
+}
+
+.heart {
+    color: var(--text-color);
+    border: none;
+    font-size: 30px;
+
+
+}
+
+.share {
+    color: var(--text-color);
+    border: none;
+    font-size: 30px;
+
+}
+.more{
+    color: var(--text-color);
+    border: none;
+    font-size: 30px;
+
+}
+.icons-position{
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+}
