@@ -2,19 +2,67 @@
 @import url('//db.onlinewebfonts.com/c/3472a29ae506df8291ece75a1f67c7f4?family=Booker');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
-/* Root  */
+/* Root fonts  */
 
-h1{
-    /* Standard 1 */
+
+.std-font-one{
     font-family: Times, "Times New Roman", Georgia, serif;
-    /* Standard 2 */
+}
+.std-font-two{
     font-family: 'Montserrat', sans-serif;
-    /* Fancy */
+}
+.fancy-font{
     font-family: "Hobeaux Rococeaux Background";
-    /* E-commerce */
+}
+.bookish-font{
     font-family: "Booker";
-/* cursive */
+}
+.cursive-font{
     font-family: 'Satisfy', cursive;
-    
+}
+.hd-xl-font{
     font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, .3);
+}
+.hd-l-font{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, .3);
+}
+.hd-m-font{
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+.hd-s-font{
+    font-size: 1.5rem;
+    font-weight: 600;
+   
+}
+
+.para-s-font{
+    text-indent: 3rem;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+    line-height: 1.5rem;
+    white-space: normal;
+}
+.para-m-font{
+    text-indent: 3rem;
+    font-size: 1.1rem;
+    letter-spacing: .05rem;
+    line-height: 1.5rem;
+    white-space: normal;
+}
+.small-font{
+    letter-spacing: .05rem;
+    line-height: 1.1rem;
+}
+.letter-spacing-l{
+    letter-spacing: .1rem;
+}
+
+.letter-spacing-s{
+    letter-spacing: .05rem;
 }

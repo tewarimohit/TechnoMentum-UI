@@ -1,0 +1,134 @@
+@import url('/utility.css');
+@import url('./css_docs/colors.css');
+@import url('./css_docs/Typography.css');
+@import url('./css_docs/Reset.css');
+
+
+
+
+
+:root{
+    font-family: 'Courier New', Courier, monospace;
+    --border-color: var(--border-color) ;
+    --text-color: var(--bg-color-header);
+    }
+    
+    .badges{
+    
+        width: 600px;
+        border: 2px solid var(--border-color);
+        padding: 1rem;
+        border-radius: 5px;
+        margin: 1rem;
+       display: flex;
+       align-items: flex-start;
+       flex-direction: column;
+        
+    
+    }
+    
+    
+    .badge-elements{
+        
+        margin: 1rem;
+        
+        
+    
+    
+    }
+    .badge{
+      
+        background-color: blueviolet;
+        color: white;
+        padding: 5px 7px;
+        font-size: .8rem;
+        font-weight: 600;
+        border-radius: 50%;
+    
+    }
+    .badge-button{
+        width: 70px;
+        height: 30px;
+        color: white;
+        font-weight: 700;
+        background-color: blueviolet;
+        border: none;
+        border-radius: 3px;
+        outline: none; 
+        
+    }
+    
+    .badge-button:hover{
+        width: 70px;
+        height: 30px;
+        color: white;
+        font-weight: 700;
+        background-color: blueviolet;
+        border: none;
+        border-radius: 3px;
+        outline: none; 
+        cursor: pointer;
+    }
+    
+    
+    
+    /* Text with small badge */
+    .textbadge1{
+        position: relative;
+        left: -1rem;
+        top:-1rem;
+      
+    }
+    
+    .textbadge2{
+        position: relative;
+        padding: 6px 9px;
+        font-size: 1.1rem;
+        font-weight: 900;
+        border-radius: 50%;
+        left: -1rem;
+        top:-1rem;
+      
+    }
+    .textbadge3{
+        position: relative;
+        background-color: 	#ff1493;
+        left: 1rem;
+        top:-1rem;
+      
+    }
+    .textbadge4{
+        position: relative;
+        left: 3.3rem;
+        top:-1.3rem;
+      
+    }
+    .textbadge5{
+        position: relative;
+        padding: 4px 8.5px;
+        left: 3.5rem;
+        top:0rem;
+      
+    }
+    
+    
+    .email-button{
+       
+        width: 50px;
+        height: 50px;
+        color: black;
+        background: white;
+        border: none;
+        outline: none;
+    
+    }
+    .email-button:hover {
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    .email-button:active {
+       background: cornsilk;
+    }
+   
+    
+    
