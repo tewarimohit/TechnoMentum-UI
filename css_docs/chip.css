@@ -7,6 +7,7 @@
 .chip-holder {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     padding: 1rem 1rem;
     margin: 1rem 1rem;
@@ -15,7 +16,7 @@
 
 .chip {
     position: relative;
-padding: .5rem 2rem;
+    padding: .5rem 2rem;
     border-radius: 50px;
 
 }
@@ -35,6 +36,7 @@ button {
 
 }
 
+/* chip colors */
 
 .chip-one {
     background-color: var(--valid-dark);

@@ -1,69 +1,68 @@
 @import url('/utility.css');
+@import url('./css_docs/colors.css');
+@import url('./css_docs/Typography.css');
+@import url('./css_docs/Reset.css');
 
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-:root{
-    
-    font-family: sans-serif;
-    
-}
 
 
-.drawer{
-    max-width: fit-content;
-    background-color: white;
+.dr {
+
+    background-color: var(--primary-colorone);
     display: flex;
-    justify-content: flex-start;
-    align-content: space-around;
-    border:none;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    justify-content: center;
+    align-content: center;
+    border: none;
+    box-shadow: var(--box-shadow);
     margin: 2rem;
     padding: 1rem;
 }
-.drawer-header{
+
+.dr-header {
     padding-bottom: .5rem;
 }
-h1{
-    font-size: medium;
-    font-weight: 800;
-}
-.subtext{
-    font-size: small;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: gray;
-}
-.drawer-elements{
-    position: relative;
-display: flex;
-flex-direction: column;
+
+.dr-heading {
+    color: var(--valid-dark);
 }
 
-.list-items{
-    position: relative;
+.subtext {
+    color: var(--text-color-dark);
+}
+
+.dr-elements {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 2rem;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+
+}
+
+.li-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    color: black;
-    padding-left: 2.5rem;
-    padding-top:.4rem;
-padding-bottom: .4rem;
+    color: var(--dark);
+    padding: .5rem 1rem;
 
 }
 
-a:hover{
-    
-   background-color: #ee82ee; 
-   border-radius: 4rem;
-   color: white;
-  
+.li-items:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--dark);
+    padding: .5rem 1rem;
+    border-radius: 3rem;
+    background-color: var(--valid-light);
+
 }
 
-i{
-    margin-top: -2px;
-    margin-left: -30px;
-    position: absolute;
-    color: gray;
+.icon {
+    margin-right: auto;
 }
