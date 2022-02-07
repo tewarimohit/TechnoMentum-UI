@@ -87,6 +87,12 @@
     justify-content: center;
 }
 
+.first-child{
+    
+    align-items: flex-start;
+   
+}
+
 
 /* gap */
 
@@ -101,8 +107,11 @@ gap: 1rem;
     /*  Margins */
 
     .margin-1{
-margin: 1rem 1rem;
+margin: 1rem ;
     }
+    .margin-2{
+        margin: 2rem ;
+            }
 
     /* borders */
 

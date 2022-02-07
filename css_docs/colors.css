@@ -5,8 +5,10 @@
     --text-color-light: #999eb3e8;
     --text-color-dark: grey ;
     --border-color: grey ;
+    --disabled-button:#c0c0c0;
     --hover-color-header:#87cefa;
-    --normal-dark : #0c4a6e;
+     --normal-dark : #0c4a6e;
+    --normal-medium:#4169e1;
     --normal-light : #bae6fd;
     --invalid-light : #e682d5;
   --invalid-dark : #dc2627;
@@ -14,8 +16,12 @@
   --valid-dark : #16a34a; 
   --warning-light : #fef08a;
   --warning-dark : #ca8a04;
+  --dark: #000000;
+  --primary-link:#ffa500;
+  --secondary-link:#1e90ff;
 --box-shadow-header:0 5px 5px 0 rgba(0, 0, 0, .3);
 --box-shadow:0 0 5px rgba(0, 0, 0, .3);
+--button-shadow:2px 2px 5px 3px rgba(0, 0, 0, .3);
 }
 
 .prime-color{
