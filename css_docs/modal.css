@@ -1,0 +1,52 @@
+@import url('./utility.css');
+@import url('./css_docs/colors.css');
+@import url('./css_docs/Typography.css');
+@import url('./css_docs/Reset.css');
+@import url('./button.css');
+@import url('./inputs.css');
+
+
+
+  
+  .modal-bg{
+     position: fixed;
+     width: 100%;
+     height: 100vh;
+     top: 0;
+     left: 0;
+     background: var(--bg-modal);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     visibility: hidden;
+     opacity: 0;
+     transition: visibility 0s, opacity 0.5s;
+  }
+  .bg-active{
+      visibility: visible;
+      opacity: 1;
+  }
+
+  .modal{
+      position: relative;
+background-color: var(--normal-light);
+width: 40%;
+height: 30%;
+padding: 1rem 1rem;
+display: flex;
+flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+  }
+
+  .modal-close{
+      background-color: var(--normal-dark);
+      padding: .2rem .4rem;
+      border-radius: 50%;
+      color: var(--primary-colorone);
+      position: absolute;
+      top:20px;
+      right:20px;
+      font-weight: 800;
+      cursor: pointer;
+  }

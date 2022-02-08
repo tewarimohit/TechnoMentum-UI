@@ -32,7 +32,7 @@
 }
 .hd-m-font{
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 300;
     
 }
 .hd-s-font{
@@ -42,22 +42,25 @@
 }
 
 .para-s-font{
-    text-indent: 3rem;
+    
     font-size: 1rem;
     letter-spacing: .05rem;
     line-height: 1.5rem;
     white-space: normal;
+    text-align: justify;
 }
 .para-m-font{
-    text-indent: 3rem;
+    
     font-size: 1.1rem;
     letter-spacing: .05rem;
     line-height: 1.5rem;
     white-space: normal;
+    text-align: justify;
 }
 .small-font{
     letter-spacing: .05rem;
     line-height: 1.1rem;
+    text-align: justify;
 }
 .letter-spacing-l{
     letter-spacing: .1rem;
@@ -69,4 +72,18 @@
 
 .s-line-height{
     line-height: 1.5rem;
+}
+
+.text-container{
+    max-width: 50%;
+}
+
+.left-text{
+    text-align: left;
+}
+.right-text{
+    text-align: right;
+}
+.centre-text{
+    text-align: center;
 }
