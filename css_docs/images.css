@@ -1,0 +1,52 @@
+@import url('/utility.css');
+@import url('./css_docs/colors.css');
+@import url('./css_docs/Typography.css');
+@import url('./css_docs/Reset.css');
+
+
+
+.img-fluid{
+    width: 500px;
+    height: auto ;
+}
+
+.round-img{
+    width: 400px;
+    clip-path: circle();
+    
+}
+
+
+@media screen and (max-width:900px){
+
+
+    .responsive-1{
+        max-width: 500px;
+        padding: 0px 20px;
+        background-color: var(--normal-medium);
+    }
+    .round-res-1{
+        max-width: 500px;
+        
+    }
+    
+}
+
+
+
+@media screen and (max-width:600px){
+
+    .responsive-2{
+        max-width: 220px;
+        padding: 0px 20px;
+        background-color: var(--normal-dark);
+    }
+    .round-res-2{
+        max-width: 220px;
+
+    }
+}
+
+
+
+
