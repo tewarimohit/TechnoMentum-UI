@@ -19,6 +19,9 @@
   --dark: #000000;
   --primary-link:#ffa500;
   --secondary-link:#1e90ff;
+  --listItem-color:#555;
+  --bg-list:#4f5872;
+  --list-fade:#636f91;
 --box-shadow-header:0 5px 5px 0 rgba(0, 0, 0, .3);
 --box-shadow:0 0 5px rgba(0, 0, 0, .3);
 --button-shadow:2px 2px 5px 3px rgba(0, 0, 0, .3);

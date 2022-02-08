@@ -6,7 +6,7 @@
 
 
 .std-font-one{
-    font-family: Times, "Times New Roman", Georgia, serif;
+    font-family: Times, "Times New Roman", Georgia, sans-serif;
 }
 .std-font-two{
     font-family: 'Montserrat', sans-serif;
@@ -65,4 +65,8 @@
 
 .letter-spacing-s{
     letter-spacing: .05rem;
+}
+
+.s-line-height{
+    line-height: 1.5rem;
 }
