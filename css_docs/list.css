@@ -1,0 +1,30 @@
+@import url('/utility.css');
+@import url('./css_docs/colors.css');
+@import url('./css_docs/Typography.css');
+@import url('./css_docs/Reset.css');
+@import url('./css_docs/button.css');
+
+
+.list{
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    background-color: var(--bg-list);
+    color: var(--primary-colorone);
+    border: 5px solid var(--list-fade);
+    border-radius: 10%;
+}
+.inline-list{
+    text-align: center;
+    display: inline-block;
+margin-right: 1rem;
+padding: .2rem .4rem;
+background-color: var(--bg-list);
+    color: var(--primary-colorone);
+    border: 2px solid var(--list-fade);
+    border-radius: 3px;
+
+}
+
+.hover-item:hover{
+cursor: pointer;
+}
