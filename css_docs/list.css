@@ -5,7 +5,7 @@
 @import url('./css_docs/button.css');
 
 
-.list{
+.list {
     font-size: 1.2rem;
     padding: 1rem 2rem;
     background-color: var(--bg-list);
@@ -13,18 +13,19 @@
     border: 5px solid var(--list-fade);
     border-radius: 10%;
 }
-.inline-list{
+
+.inline-list {
     text-align: center;
     display: inline-block;
-margin-right: 1rem;
-padding: .2rem .4rem;
-background-color: var(--bg-list);
+    margin-right: 1rem;
+    padding: .2rem .4rem;
+    background-color: var(--bg-list);
     color: var(--primary-colorone);
     border: 2px solid var(--list-fade);
     border-radius: 3px;
 
 }
 
-.hover-item:hover{
-cursor: pointer;
+.hover-item:hover {
+    cursor: pointer;
 }

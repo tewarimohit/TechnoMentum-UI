@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="/css_docs/alert.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
    rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="/css_docs/Typography.css">
-   <link rel="stylesheet" href="./css_docs/Reset.css">
-    <link rel="stylesheet" href="./utility.css">
-    <link rel="stylesheet" href="./css_docs/colors.css">
+    <link rel="stylesheet" href="./Dev_Style.css">
     <title>Alerts</title>
 </head>
 <body>
@@ -48,14 +47,16 @@
         <div class="drawer-elements">
         
         
-             <h1 class="list-items std-font-one hd-s-font "><a href="#" class="secondary-color">Documentation</a> </h1>
+             <h1 class="list-items std-font-one hd-s-font "><a href="./documentation.html" class="secondary-color">Documentation</a> </h1>
        
              <hr class="divider-big"/>
+
+             <h1 class="list-items std-font-one active-link "><a href="/alert.html" class="secondary-color">Alert</a> </h1> 
 
              <h1 class="list-items std-font-one hd-s-font "><a href="/avatars.html" class="secondary-color">Avatars</a> </h1>
             
         
-             <h1 class="list-items std-font-one active-link "><a href="/alert.html" class="secondary-color">Alert</a> </h1> 
+             
          
            <h1 class="list-items std-font-one hd-s-font "><a href="/badges.html" class="secondary-color">Badges</a></h1>
  
@@ -93,35 +94,63 @@
     <h2 class="hd-xl-font dark-text std-font-two">Alerts</h2>
 
     <hr class="divider-page"/>
-
+    
     <div class="column-flex-centre">
-
-<span class="alert-box normal-alert std-font-two hd-s-font ">Normal Alert.
+        <span class="margin-1"></span>
+<p class="para-m-font text-container std-font-two">Adding below defined classes on Your code for respective Alert Buttons will help you to get beautiful Alert Buttons</p>
+       
+<span class="alert-box normal-alert std-font-two hd-s-font ">Normal Alert
     <button class="close-button normal-close-button hd-s-font">X</button>
 </span>
 
+
+<pre ><code class="snippet">
+&lt;span class="alert-box normal-alert std-font-two hd-s-font ">Normal Alert
+&lt;button class="close-button normal-close-button hd-s-font">X&lt;/button>
+&lt;/span>
+</code></pre>
+<span class="margin-1"></span>
 <hr class="divider-big">
 
-<span class="alert-box invalid-alert std-font-two hd-s-font ">Invalid Alert.
+
+
+       
+<span class="alert-box invalid-alert std-font-two hd-s-font ">Invalid Alert
     <button class="close-button invalid-close-button hd-s-font">X</button>
 </span>
-
+<pre ><code class="snippet">
+&lt;span class="alert-box invalid-alert std-font-two hd-s-font ">Invalid Alert
+&lt;button class="close-button invalid-close-button hd-s-font">X&lt;/button>
+&lt;/span>
+     </code></pre>
+     <span class="margin-1"></span>
 <hr class="divider-big">
 
-<span class="alert-box valid-alert std-font-two hd-s-font ">Valid Alert.
+
+
+
+<span class="alert-box valid-alert std-font-two hd-s-font ">Valid Alert
     <button class="close-button valid-close-button hd-s-font">X</button>
 </span>
 
+        <pre ><code class="snippet">
+&lt;span class="alert-box valid-alert std-font-two hd-s-font ">Valid Alert
+&lt;button class="close-button valid-close-button hd-s-font">X&lt;/button>
+&lt;/span>
+            </code></pre>
+            <span class="margin-1"></span>
 <hr class="divider-big">
 
-<span class="alert-box warning-alert std-font-two hd-s-font ">Warning Alert.
+<span class="alert-box warning-alert std-font-two hd-s-font ">Warning Alert
     <button class="close-button warning-close-button hd-s-font">X</button>
 </span>
+        <pre ><code class="snippet">
+&lt;span class="alert-box warning-alert std-font-two hd-s-font ">Warning Alert
+&lt;button class="close-button warning-close-button hd-s-font">X&lt;/button>
+&lt;/span>
+            </code></pre>
 
-
-    </div>
-
-
+</div>
 
 </section>
 
@@ -130,6 +159,7 @@
 
 
 </div>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 </body>
 </html>

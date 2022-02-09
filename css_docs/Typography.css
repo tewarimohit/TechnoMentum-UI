@@ -65,10 +65,11 @@
 .para-m-font {
 
     font-size: 1.1rem;
-    letter-spacing: .05rem;
+    letter-spacing: .02rem;
     line-height: 1.5rem;
     white-space: normal;
     text-align: justify;
+    font-weight: 600;
 }
 
 .small-font {
@@ -76,7 +77,9 @@
     line-height: 1.1rem;
     text-align: justify;
 }
-
+.bold-text{
+    font-weight: 900;
+}
 .letter-spacing-l {
     letter-spacing: .1rem;
 }

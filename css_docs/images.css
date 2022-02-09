@@ -5,48 +5,44 @@
 
 
 
-.img-fluid{
+.img-fluid {
     width: 500px;
-    height: auto ;
+    height: auto;
 }
 
-.round-img{
+.round-img {
     width: 400px;
     clip-path: circle();
-    
+
 }
 
 
-@media screen and (max-width:900px){
+@media screen and (max-width:900px) {
 
 
-    .responsive-1{
+    .responsive-1 {
         max-width: 500px;
         padding: 0px 20px;
         background-color: var(--normal-medium);
     }
-    .round-res-1{
+
+    .round-res-1 {
         max-width: 500px;
-        
     }
-    
+
 }
 
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
 
-    .responsive-2{
+    .responsive-2 {
         max-width: 220px;
         padding: 0px 20px;
         background-color: var(--normal-dark);
     }
-    .round-res-2{
-        max-width: 220px;
 
+    .round-res-2 {
+        max-width: 220px;
     }
 }
-
-
-
-

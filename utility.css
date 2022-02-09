@@ -291,7 +291,6 @@
     column-gap: .5rem;
     margin: 1rem 0rem;
     border-radius: 3rem;
-    font-size: 1.5rem;
 
 }
 
@@ -351,4 +350,15 @@
 /* box */
 .border-box{
     box-sizing: border-box;
+}
+
+.snippet{
+    max-width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    border-radius: 1rem;
+    text-align: center;
 }
