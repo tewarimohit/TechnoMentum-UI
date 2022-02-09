@@ -1,0 +1,64 @@
+@import url('./utility.css');
+@import url('./css_docs/colors.css');
+@import url('./css_docs/Typography.css');
+@import url('./css_docs/Reset.css');
+@import url('./button.css');
+
+.rating {
+    position: relative;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(180deg);
+    display: flex;
+
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    display: block;
+    cursor: pointer;
+    width: 70px;
+}
+
+.rating label::before {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    color: var(--listItem-color);
+}
+
+.rating label::after {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    color: var(--primary-link);
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: var(--box-shadow);
+}
+
+.rating label:hover:after {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    color: var(--primary-link);
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: var(--box-shadow);
+}
+
+.rating label:hover:after,
+.rating label:hover~label:after {
+    opacity: 1;
+}
