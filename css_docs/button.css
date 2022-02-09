@@ -2,9 +2,10 @@
 @import url('./css_docs/colors.css');
 @import url('./css_docs/Typography.css');
 @import url('./css_docs/Reset.css');
-:root{
-    --padding-button:0.5rem 1rem;
-    --margin-button:0.5rem 1rem;
+
+:root {
+    --padding-button: 0.5rem 1rem;
+    --margin-button: 0.5rem .5rem;
 }
 
 /* Primary */
