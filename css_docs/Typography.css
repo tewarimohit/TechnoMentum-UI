@@ -5,85 +5,105 @@
 /* Root fonts  */
 
 
-.std-font-one{
+.std-font-one {
     font-family: Times, "Times New Roman", Georgia, sans-serif;
 }
-.std-font-two{
+
+.std-font-two {
     font-family: 'Montserrat', sans-serif;
 }
-.fancy-font{
+
+.fancy-font {
     font-family: "Hobeaux Rococeaux Background";
 }
-.bookish-font{
+
+.bookish-font {
     font-family: "Booker";
 }
-.cursive-font{
+
+.cursive-font {
     font-family: 'Satisfy', cursive;
 }
-.hd-xl-font{
+
+.hd-xl-font {
     font-size: 3rem;
     font-weight: 700;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, .3);
 }
-.hd-l-font{
+
+.hd-l-font {
     font-size: 2.5rem;
     font-weight: 600;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, .3);
 }
-.hd-m-font{
+
+.hd-m-font {
     font-size: 2rem;
     font-weight: 300;
-    
-}
-.hd-s-font{
-    font-size: 1.5rem;
-    font-weight: 600;
-   
+
 }
 
-.para-s-font{
-    
+.hd-s-font {
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+.active-link{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.para-s-font {
+
     font-size: 1rem;
     letter-spacing: .05rem;
     line-height: 1.5rem;
     white-space: normal;
     text-align: justify;
 }
-.para-m-font{
-    
+
+.para-m-font {
+
     font-size: 1.1rem;
     letter-spacing: .05rem;
     line-height: 1.5rem;
     white-space: normal;
     text-align: justify;
 }
-.small-font{
+
+.small-font {
     letter-spacing: .05rem;
     line-height: 1.1rem;
     text-align: justify;
 }
-.letter-spacing-l{
+
+.letter-spacing-l {
     letter-spacing: .1rem;
 }
 
-.letter-spacing-s{
+.letter-spacing-s {
     letter-spacing: .05rem;
 }
 
-.s-line-height{
+.s-line-height {
     line-height: 1.5rem;
 }
 
-.text-container{
+.text-container {
     max-width: 50%;
 }
 
-.left-text{
+.left-text {
     text-align: left;
 }
-.right-text{
+
+.right-text {
     text-align: right;
 }
-.centre-text{
+
+.centre-text {
     text-align: center;
+}
+.txt-shadow{
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, .3);
 }
