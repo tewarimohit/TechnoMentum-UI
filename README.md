@@ -18,7 +18,7 @@ TechnoMentum-UI is a component library from where you can pick up different comp
 #### c) Invalid Alert Box
 #### d) Warning Alert Box
 
-(https://user-images.githubusercontent.com/89827782/153397009-8d5ba1d9-3e4c-4b55-a55f-dbc3a6e7b8a7.mp4)
+[Click here to watch Video](https://user-images.githubusercontent.com/89827782/153397009-8d5ba1d9-3e4c-4b55-a55f-dbc3a6e7b8a7.mp4)
 
 
 
