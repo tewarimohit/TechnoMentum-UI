@@ -20,6 +20,11 @@ TechnoMentum-UI is a component library from where you can pick up different comp
 
 [Click here to watch Video](https://user-images.githubusercontent.com/89827782/153397009-8d5ba1d9-3e4c-4b55-a55f-dbc3a6e7b8a7.mp4)
 
+### 2.Avatars of different sizes
+
+[Click here to watch Video](https://user-images.githubusercontent.com/89827782/153398783-c079e5d5-2f3d-4d69-8546-0507b4532983.mp4)
+
+
 
 
 
