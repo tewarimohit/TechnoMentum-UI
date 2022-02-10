@@ -1,0 +1,63 @@
+@import url('./utility.css');
+@import url('./css_docs/colors.css');
+@import url('./css_docs/Typography.css');
+@import url('./css_docs/Reset.css');
+@import url('./button.css');
+
+
+
+.snackbar-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.snackbar{
+    background-color: var(--dark);
+color: var(--primary-colorone);
+padding: .2rem 1rem;
+border-radius: 4px;
+position: fixed;
+max-width: 400px;
+bottom: 3rem;
+}
+
+.flat-button{
+background: transparent;
+color: var(--normal-medium);
+border: none;
+font-weight: 600;
+margin: .1rem .3rem;
+padding: .4rem .5rem;
+border-radius: 5px;
+margin-left: auto;
+}
+.flat-button:hover{
+    background: transparent;
+    cursor: pointer;
+    
+    }
+    .flat-button:active{
+        background: transparent;
+        background-color: var(--primary-colorone);
+        color: var(--normal-medium);
+        border: none;
+        margin: .1rem .3rem;
+        padding: .4rem .5rem;
+        cursor: pointer;
+        margin-left: auto;
+        }
+
+.cls-btn-snackbar{
+    background: transparent;
+    color: var(--primary-colorone);
+    border: none;
+    margin: .1rem .3rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.cls-btn-snackbar:hover{
+    cursor: pointer;
+}
