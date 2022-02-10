@@ -1,7 +1,7 @@
 @import url('./css_docs/colors.css');
 @import url('./css_docs/Typography.css');
 @import url('./css_docs/Reset.css');
-
+@import url('./button.css');
 
 
 
@@ -165,6 +165,11 @@
 
 .width-100 {
     width: 100%;
+}
+/* padding */
+
+.padding-s{
+    padding: 6rem 5rem;
 }
 
 
