@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css_docs/cards.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css_docs/Typography.css">
-    <link rel="stylesheet" href="./css_docs/Reset.css">
-    <link rel="stylesheet" href="./utility.css">
-    <link rel="stylesheet" href="./css_docs/colors.css">
+   <link rel="stylesheet" href="Dev_Style.css">
+   <link rel="stylesheet" href="./css_docs/cards.css">
+  
     <title>Cards</title>
 </head>
 
@@ -50,17 +51,19 @@
                 <div class="drawer-elements">
 
 
-                    <h1 class="list-items std-font-one hd-s-font "><a href="#" class="secondary-color">Documentation</a>
+                    <h1 class="list-items std-font-one hd-s-font "><a href="./documentation.html" class="secondary-color">Documentation</a>
                     </h1>
 
                     <hr class="divider-big" />
 
+
+                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
+                        class="secondary-color">Alert</a> </h1>
                     <h1 class="list-items std-font-one hd-s-font "><a href="/avatars.html"
                             class="secondary-color">Avatars</a> </h1>
 
 
-                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
-                            class="secondary-color">Alert</a> </h1>
+                   
 
                     <h1 class="list-items std-font-one hd-s-font "><a href="/badges.html"
                             class="secondary-color">Badges</a></h1>
@@ -109,13 +112,13 @@
 
                 <h1 class="std-font-two hd-m-font light-text margin-1">Simple Message Card with Border</h1>
                 <div class="card card-zero margin-2">
-                    <div class="card-header">A Beautiful Book</div>
-                    <div class="card-body">
+                    <div class="card-header margin-1">A Beautiful Book</div>
+                    <div class="card-body margin-1">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem officiis pariatur fuga in quod
                         delectus, perferendis quaerat dolores sit quidem deserunt laboriosam, ducimus reiciendis omnis
                         ab! Placeat quod dignissimos accusamus.
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer margin-1">
                         <button class="read-btn">READ</button>
                         <button class="read-btn bookmark-btn">BOOKMARK</button>
 
@@ -135,8 +138,32 @@
                         </div>
                     </div>
                 </div>
+                <span class="margin-1"></span>
+<p class="para-m-font text-container std-font-two">By adding the <strong class="bold-text">below</strong> defined classes on Your code, You'll get the above and following Cards Structure on Your page. class="card-zero" is for simple card without shadow.</p>
+<span class="margin-1"></span>
 
-                <hr class="divider-page" />
+                <pre ><code class="snippet">
+&lt;div class="card card-zero margin-2">
+&lt;div class="card-header margin-1">A Beautiful Book&lt;/div>
+&lt;div class="card-body margin-1">&lt;/div>
+&lt;div class="card-footer margin-1">
+&lt;button class="read-btn">READ&lt;/button>
+&lt;button class="read-btn bookmark-btn">BOOKMARK&lt;/button>
+&lt;div class="all-icon">
+&lt;button class="icons">
+&lt;i class="material-icons heart" title="Add To Favourites">favorite_border
+&lt;/i>&lt;/button>
+&lt;button class="icons">
+&lt;i class="material-icons share" title="Share">share&lt;/i>
+&lt;/button>
+&lt;button class="icons">
+&lt;i class="material-icons more" title="More Options">more_vert
+&lt;/i>&lt;/button>&lt;/div>
+&lt;/div>
+&lt;/div>
+                    </code></pre>
+
+                <hr class="divider-big" />
 
                 <h1 class="std-font-two hd-m-font light-text margin-1"> Card With Image</h1>
                 <div class="card card-shadow margin-2">
@@ -169,8 +196,19 @@
                         </div>
                     </div>
                 </div>
-
-                <hr class="divider-page" />
+                <span class="margin-1"></span>
+                <p class="para-m-font text-container std-font-two">class= "card-shadow" will give the shadow effect, class="card-image" and "card-one" will give look of second card</p>
+                <span class="margin-1"></span>
+                <pre ><code class="snippet">
+&lt;div class="card card-shadow margin-2">
+&lt;div class="card-header card-image card-one" id="">
+&lt;span>A Beautiful Book&lt;/span>
+&lt;img src="/..." alt="Book" srcset="">
+&lt;/div>
+                    </code></pre>
+               
+               
+                <hr class="divider-big" />
 
                 <h1 class="std-font-two hd-m-font light-text margin-1"> Card With Header Below Image</h1>
                 <div class="card card-shadow margin-2">
@@ -201,7 +239,18 @@
                     </div>
                 </div>
 
-                <hr class="divider-page" />
+                <span class="margin-1"></span>
+                <p class="para-m-font text-container std-font-two">Code changes like card header and image above card body will give this effect to card.</p>
+                <span class="margin-1"></span>
+                <pre ><code class="snippet">
+&lt;div class="card-header card-image">
+&lt;img src="/..." alt="Book" srcset="">
+&lt;span>A Beautiful Book&lt;/span> &lt;/div>
+&lt;div class="card-body">
+This is one of my favourite books.&lt;/div>
+                    </code></pre>
+
+                <hr class="divider-big" />
                 <h1 class="std-font-two hd-m-font light-text margin-1"> Card With Text over Image</h1>
                 <div class="card card-shadow margin-2">
 
@@ -231,7 +280,17 @@
                     </div>
                 </div>
 
-                <hr class="divider-page" />
+                <span class="margin-1"></span>
+                <p class="para-m-font text-container std-font-two">Adding class="card-two" will give this effect on card.</p>
+                <span class="margin-1"></span>
+                <pre ><code class="snippet">
+ &lt;div class="card card-shadow margin-2">
+&lt;div class="card-header card-image card-two">
+&lt;img src="/..." alt="Book" srcset="">&lt;span>A Beautiful Book
+&lt;/span>&lt;/div>
+                    </code></pre>
+
+                <hr class="divider-big" />
 
                 <h1 class="std-font-two hd-m-font light-text margin-1"> Card With only Buttons</h1>
                 <div class="card card-shadow margin-2">
@@ -248,7 +307,17 @@
 
                     </div>
                 </div>
-                <hr class="divider-page" />
+
+                <span class="margin-1"></span>
+                <p class="para-m-font text-container std-font-two">Adding only class="read-btn" and "read-btn" with class="bookmark-btn" on card-footer will give you card with Buttons.</p>
+                <span class="margin-1"></span>
+                <pre ><code class="snippet">
+&lt;div class="card-footer">
+&lt;button class="read-btn">READ&lt;/button>
+&lt;button class="read-btn bookmark-btn">BOOKMARK
+&lt;/button>&lt;/div>
+                    </code></pre>
+                <hr class="divider-big" />
 
                 <h1 class="std-font-two hd-m-font light-text margin-1"> Card With only Icons</h1>
                 <div class="card card-shadow margin-2">
@@ -279,15 +348,32 @@
                         </div>
                     </div>
                 </div>
+                <span class="margin-1"></span>
+                <p class="para-m-font text-container std-font-two">Adding only below icon classes on card-footer will give you card with Icons only.</p>
+                <span class="margin-1"></span>
+                <pre ><code class="snippet">
+&lt;div class="all-icon">
+&lt;button class="icons">
+&lt;i class="material-icons heart" title="Add To Favourites">favorite_border&lt;/i>
+&lt;/button>
 
-                <hr class="divider-page" />
+&lt;button class="icons">
+&lt;i class="material-icons share" title="Share">share&lt;/i>
+&lt;/button>
+
+&lt;button class="icons">
+&lt;i class="material-icons more" title="More Options">more_vert&lt;/i>
+&lt;/button>
+                    </code></pre>
+                <hr class="divider-big" />
 
             </div>
 
         </section>
 
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 
 </html>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css_docs/modal.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css_docs/Typography.css">
     <link rel="stylesheet" href="./css_docs/Reset.css">
@@ -50,17 +51,18 @@
                 <div class="drawer-elements">
 
 
-                    <h1 class="list-items std-font-one hd-s-font "><a href="#" class="secondary-color">Documentation</a>
+                    <h1 class="list-items std-font-one hd-s-font "><a href="./documentation.html" class="secondary-color">Documentation</a>
                     </h1>
 
                     <hr class="divider-big" />
+                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
+                        class="secondary-color">Alert</a> </h1>
 
                     <h1 class="list-items std-font-one hd-s-font "><a href="/avatars.html"
                             class="secondary-color">Avatars</a> </h1>
 
 
-                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
-                            class="secondary-color">Alert</a> </h1>
+                  
 
                     <h1 class="list-items std-font-one hd-s-font "><a href="/badges.html"
                             class="secondary-color">Badges</a></h1>
@@ -122,15 +124,29 @@
                 </div>
 
             </div>
-
+            <hr class="divider-big margin-1" />
+            <span class="margin-1"></span>
+            <p class="para-m-font text-container std-font-two">By adding the <strong class="bold-text">below</strong> defined classes and Javascript Your code, You'll get the above Modal.</p>
+            <span class="margin-1"></span>
+            
+            <pre ><code class="snippet">
+&lt;button class="modal-btn primary-btn normal-btn">
+Modal&lt;/button>&lt;div class="modal-bg">
+&lt;div class="modal">&lt;h1 class="hd-l-font">
+This is our modal&lt;/h1> &lt;label for="username">
+Username :&lt;/label>&lt;input type="text" name="username">
+&lt;label for="password">Password :&lt;/label>
+&lt;input type="Password" name="password">
+&lt;button class="primary-btn olined-normal-btn">Login
+&lt;/button>&lt;span class="modal-close">X&lt;/span>
+&lt;/div>&lt;/div>  
+                        </code></pre>
         </section>
 
-
-
-
-
-    </div>
+ </div>
     <script src="./scripts/modal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 </body>
 
 </html>

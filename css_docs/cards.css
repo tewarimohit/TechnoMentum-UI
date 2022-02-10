@@ -1,7 +1,5 @@
-@import url('/utility.css');
-@import url('./css_docs/colors.css');
-@import url('./css_docs/Typography.css');
-@import url('./css_docs/Reset.css');
+
+@import url('./Dev_Style.css');
 
 :root {
     --no-border: none;
@@ -31,9 +29,9 @@
 
 .card-header {
     padding: var(--padding);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: .5rem;
-
+font-weight: 600;
 }
 
 .card-header.card-image {
@@ -92,8 +90,10 @@
 .card-body {
     display: flex;
     justify-content: flex-start;
-    font-size: 1rem;
-    margin-left: 1rem;
+    font-size: 1.2rem;
+    margin-left: 1rem 1rem;
+    font-weight: 800;
+text-align: justify;
     color: var(--normal-dark);
 }
 

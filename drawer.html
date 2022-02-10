@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css_docs/drawer.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css_docs/Typography.css">
     <link rel="stylesheet" href="./css_docs/Reset.css">
@@ -50,19 +52,18 @@
                 <div class="drawer-elements">
 
 
-                    <h1 class="list-items std-font-one hd-s-font "><a href="#" class="secondary-color">Documentation</a>
+                    <h1 class="list-items std-font-one hd-s-font "><a href="./documentation.html" class="secondary-color">Documentation</a>
                     </h1>
 
                     <hr class="divider-big" />
 
+                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
+                        class="secondary-color">Alert</a> </h1>
                     <h1 class="list-items std-font-one hd-s-font "><a href="/avatars.html"
                             class="secondary-color">Avatars</a> </h1>
 
 
-                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
-                            class="secondary-color">Alert</a> </h1>
-
-                    <h1 class="list-items std-font-one hd-s-font "><a href="/badges.html"
+                   <h1 class="list-items std-font-one hd-s-font "><a href="/badges.html"
                             class="secondary-color">Badges</a></h1>
 
                     <h1 class="list-items std-font-one hd-s-font "><a href="/button.html"
@@ -126,17 +127,40 @@
                 </div>
 
             </div>
-
-
+            <span class="margin-1"></span>
+            <p class="para-m-font text-container std-font-two">By adding the <strong class="bold-text">below</strong> defined classes on Your code, You'll get the above Drawer on Your page.</p>
+            <span class="margin-1"></span>
+            <pre ><code class="snippet">
+&lt;div class="dr">
+ &lt;div class="dr-components">
+  &lt;header class="dr-header ">
+   &lt;h1 class=" hd-m-font dr-heading">My Drawer&lt;/h1>
+    &lt;p class="subtext">Hover Elements Below&lt;/p>
+     &lt;/header>
+     &lt;div class="dr-elements">
+     &lt;a href="#" class="li-items">
+     &lt;i class="material-icons icon">mail&lt;/i> Inbox&lt;/a>
+     &lt;a href="#" class="li-items">
+     &lt;i class="material-icons icon">star&lt;/i>Star&lt;/a>
+     &lt;a href="#" class="li-items">
+     &lt;i class="material-icons icon">send&lt;/i>Sent Mail&lt;/a>
+    &lt;a href="#" class="li-items">
+   &lt;i class="material-icons icon">drafts&lt;/i>Drafts&lt;/a>
+  &lt;/div>
+ &lt;/div>
+&lt;/div>
+         </code></pre>
+         <hr class="divider-big" />
 
         </section>
-
+        
 
 
 
 
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 
 </html>

@@ -1,13 +1,11 @@
-@import url('/utility.css');
-@import url('/css_docs/colors.css');
-@import url('./css_docs/Typography.css');
-@import url('./css_docs/Reset.css');
+@import url('./Dev_Style.css');
 
 
 
 .alert-box{
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 1.5rem 1rem;
     padding: 1.5rem 2rem;
@@ -16,6 +14,7 @@
     
 }
 .close-button{
+    position: relative;
     margin-left: 2rem;
     padding: .3rem .8rem;
     border-radius: 50%;

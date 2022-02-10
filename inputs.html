@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css_docs/inputs.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css" />
+
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css_docs/Typography.css">
@@ -50,17 +52,18 @@
                 <div class="drawer-elements">
 
 
-                    <h1 class="list-items std-font-one hd-s-font "><a href="#" class="secondary-color">Documentation</a>
+                    <h1 class="list-items std-font-one hd-s-font "><a href="./documentation.html" class="secondary-color">Documentation</a>
                     </h1>
 
                     <hr class="divider-big" />
 
+                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
+                        class="secondary-color">Alert</a> </h1>
                     <h1 class="list-items std-font-one hd-s-font "><a href="/avatars.html"
                             class="secondary-color">Avatars</a> </h1>
 
 
-                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
-                            class="secondary-color">Alert</a> </h1>
+                   
 
                     <h1 class="list-items std-font-one hd-s-font "><a href="/badges.html"
                             class="secondary-color">Badges</a></h1>
@@ -105,7 +108,11 @@
             <h2 class="hd-xl-font dark-text std-font-two">Inputs</h2>
 
             <hr class="divider-page" />
-
+            <span class="margin-1"></span>
+            <p class="para-m-font text-container std-font-two">By adding the <strong class="bold-text">below</strong> defined classes on Your code, You'll get the respective Inputs on Your page.</p>
+            <span class="margin-1"></span>
+            
+                        
             <h1 class="std-font-two hd-m-font light-text margin-2">Normal Input</h1>
             <div class="row-flex-wrap gap-1 ">
 
@@ -116,7 +123,15 @@
 
                 </div>
             </div>
-
+            
+            <pre ><code class="snippet">
+&lt;div class="form">
+&lt;input title="Normal Input"
+ placeholder="Normal Input"
+ type="text" id="#"
+class="input-field normal-input" 
+autocomplete="off">
+            </code></pre>
             <hr class="divider-big " />
 
             <h1 class="std-font-two hd-m-font light-text margin-2">Valid Input</h1>
@@ -129,6 +144,13 @@
 
                 </div>
             </div>
+            <pre ><code class="snippet">
+&lt;div class="form">
+&lt;input title="Valid Input"
+ placeholder="Valid Input" type="text" 
+ id="#"class="input-field valid-input"
+ autocomplete="off">
+                </code></pre>
             <hr class="divider-big " />
 
             <h1 class="std-font-two hd-m-font light-text margin-2">Invalid Input</h1>
@@ -144,12 +166,19 @@
 
                 </div>
             </div>
-
+            <pre ><code class="snippet">
+&lt;div class="form">
+&lt;input title="Invalid Input"
+ placeholder="Invalid Input" type="text" 
+ id="#"class="input-field invalid-input" 
+autocomplete="off">
+                                </code></pre>
 
         </section>
 
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 
 </html>

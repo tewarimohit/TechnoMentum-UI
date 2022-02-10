@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css_docs/chip.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css_docs/Typography.css">
     <link rel="stylesheet" href="./css_docs/Reset.css">
@@ -50,19 +52,18 @@
                 <div class="drawer-elements">
 
 
-                    <h1 class="list-items std-font-one hd-s-font "><a href="#" class="secondary-color">Documentation</a>
+                    <h1 class="list-items std-font-one hd-s-font "><a href="./documentation.html" class="secondary-color">Documentation</a>
                     </h1>
 
                     <hr class="divider-big" />
 
+
+                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
+                        class="secondary-color">Alert</a> </h1>
                     <h1 class="list-items std-font-one hd-s-font "><a href="/avatars.html"
                             class="secondary-color">Avatars</a> </h1>
 
-
-                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
-                            class="secondary-color">Alert</a> </h1>
-
-                    <h1 class="list-items std-font-one hd-s-font "><a href="/badges.html"
+                            <h1 class="list-items std-font-one hd-s-font "><a href="/badges.html"
                             class="secondary-color">Badges</a></h1>
 
                     <h1 class="list-items std-font-one hd-s-font "><a href="/button.html"
@@ -127,18 +128,30 @@
                 </div>
 
             </div>
+            <span class="margin-1"></span>
+<p class="para-m-font text-container std-font-two">By adding the <strong class="bold-text">below</strong> defined classes on Your code, You'll get the above Chips on Your page.</p>
+<span class="margin-1"></span>
+<pre ><code class="snippet">
+&lt;div class="chip-holder gap-1">
+&lt;div class=" row-flex-centre chip chip-one hd-s-font">First&lt;button>
+&lt;i class="material-icons close chip1-close">close&lt;/i>&lt;/button>
+&lt;/div>
+&lt;div class="row-flex-centre chip chip-two hd-s-font">Second&lt;button>
+&lt;i class="material-icons close chip2-close">close&lt;/i>&lt;/button>
+&lt;/div>
+&lt;div class="row-flex-centre chip chip-three hd-s-font">Third &lt;button>
+&lt;i class="material-icons close chip3-close">close&lt;/i>&lt;/button>
+&lt;/div>
+&lt;div class="row-flex-centre chip chip-four hd-s-font">Fourth&lt;button>
+&lt;i class="material-icons close chip4-close">close&lt;/i>&lt;/button>
+&lt;/div>
+&lt;/div>  
+</code></pre>
             <hr class="divider-big" />
-
-
-
         </section>
-
-
-
-
-
-    </div>
-
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 
 </html>

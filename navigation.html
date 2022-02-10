@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css_docs/navigation.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css_docs/Typography.css">
     <link rel="stylesheet" href="./css_docs/Reset.css">
@@ -47,17 +48,19 @@
                 <div class="drawer-elements">
 
 
-                    <h1 class="list-items std-font-one hd-s-font "><a href="#" class="secondary-color">Documentation</a>
+                    <h1 class="list-items std-font-one hd-s-font "><a href="./documentation.html" class="secondary-color">Documentation</a>
                     </h1>
 
                     <hr class="divider-big" />
+
+                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
+                        class="secondary-color">Alert</a> </h1>
 
                     <h1 class="list-items std-font-one hd-s-font "><a href="/avatars.html"
                             class="secondary-color">Avatars</a> </h1>
 
 
-                    <h1 class="list-items std-font-one hd-s-font "><a href="/alert.html"
-                            class="secondary-color">Alert</a> </h1>
+                    
 
                     <h1 class="list-items std-font-one hd-s-font "><a href="/badges.html"
                             class="secondary-color">Badges</a></h1>
@@ -84,12 +87,12 @@
                             class="secondary-color">Lists</a></h1>
                     <h1 class="list-items std-font-one hd-s-font "><a href="/modal.html"
                             class="secondary-color">Modal</a></h1>
-                            <h1 class="list-items std-font-one active-link "><a href="/navigation.html"
-                                class="secondary-color">Navigation</a></h1>
-                            <h1 class="list-items std-font-one hd-s-font "><a href="/rating.html"
-                                class="secondary-color">Rating</a></h1>
-                            <h1 class="list-items std-font-one hd-s-font "><a href="/typography.html"
-                                class="secondary-color">Typography</a></h1>
+                    <h1 class="list-items std-font-one active-link "><a href="/navigation.html"
+                            class="secondary-color">Navigation</a></h1>
+                    <h1 class="list-items std-font-one hd-s-font "><a href="/rating.html"
+                            class="secondary-color">Rating</a></h1>
+                    <h1 class="list-items std-font-one hd-s-font "><a href="/typography.html"
+                            class="secondary-color">Typography</a></h1>
 
                 </div>
 
@@ -107,42 +110,64 @@
             <span class="margin-1"></span>
 
             <header class="ecom-header">
-                <h1 class=""><a href="#" class=" logo hd-m-font bookish-font letter-spacing-l txt-shadow ">E - Commerce</a></h1>
+                <h1 class=""><a href="#" class=" logo hd-m-font bookish-font letter-spacing-l txt-shadow ">E -
+                        Commerce</a></h1>
                 <div class="search-bar">
                     <form class="search-bar-el" action="">
-                      <input class="input-search"
-                        type="text"
-                        name=""
-                        id=""
-                        placeholder="What are you looking for?"
-                      />
-                      <button class="rounded-btn rounded-btn3 normal-btn search-btn">Search</button>
+                        <input class="input-search" type="text" name="" id="" placeholder="What are you looking for?" />
+                        <button class="rounded-btn rounded-btn3 normal-btn search-btn">Search</button>
                     </form>
-                  </div>
-                <div class="ecom-header-nav">
-                  <nav class="nav-items">
-                      
-                       <a href="#" class="link prime-link1 link-text login-color "> Login</a>
-
-                      <a href="#"  title="Favourite" class="head-link">
-                        <i class="material-icons heart ">favorite_border</i>
-                        </a>
-                       <a href="#" class="cart" title="Cart" class="head-link"><i class="material-icons ">shopping_cart</i></a>
-
-             
-            
-                    
-                    
-                  </nav>
-                  <a href="#" class="user" title="User Info" >
-                    <span class="head-link">Profile</span>
-                    
-                  </a>
-                  <a href="#"><div class="user-img" title="Profile Picture"></div></a>
                 </div>
-              </header>
+                <div class="ecom-header-nav">
+                    <nav class="nav-items">
 
+                        <a href="#" class="link prime-link1 link-text login-color "> Login</a>
 
+                        <a href="#" title="Favourite" class="head-link">
+                            <i class="material-icons heart ">favorite_border</i>
+                        </a>
+                        <a href="#" class="cart" title="Cart" class="head-link"><i
+                                class="material-icons ">shopping_cart</i></a>
+                            </nav>
+                    <a href="#" class="user" title="User Info">
+                        <span class="head-link">Profile</span>
+
+                    </a>
+                    <a href="#">
+                        <div class="user-img" title="Profile Picture"></div>
+                    </a>
+                </div>
+            </header>
+
+            <span class="margin-1"></span>
+            <p class="para-m-font text-container std-font-two">By adding the <strong class="bold-text">below</strong> defined classes on Your code, You'll get the above Navigation Header.</p>
+            <span class="margin-1"></span>
+            
+            <pre ><code class="snippet">
+&lt;header class="ecom-header">
+&lt;h1 class="">&lt;a href="#" 
+class=" logo hd-m-font bookish-font letter-spacing-l txt-shadow ">
+E -Commerce&lt;/a>&lt;/h1>&lt;div class="search-bar">
+&lt;form class="search-bar-el" action="">
+ &lt;input class="input-search" type="text" name=""
+  id="" placeholder="What are you looking for?" />
+&lt;button class="rounded-btn rounded-btn3 normal-btn search-btn">
+Search&lt;/button>&lt;/form>&lt;/div>
+ &lt;div class="ecom-header-nav">
+&lt;nav class="nav-items">
+&lt;a href="#" class="link prime-link1 link-text login-color ">
+ Login&lt;/a> &lt;a href="#" title="Favourite" class="head-link">
+&lt;i class="material-icons heart ">favorite_border&lt;/i>
+&lt;/a> &lt;a href="#" class="cart" title="Cart" class="head-link">
+&lt;i class="material-icons ">shopping_cart&lt;/i>&lt;/a>
+&lt;/nav>
+&lt;a href="#" class="user" title="User Info">
+&lt;span class="head-link">Profile&lt;/span>
+&lt;/a>&lt;a href="#">
+ &lt;div class="user-img" title="Profile Picture">&lt;/div>
+&lt;/a>&lt;/div>
+&lt;/header>
+                        </code></pre>
 
         </section>
 
@@ -151,7 +176,8 @@
 
 
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 
 </html>
