@@ -24,6 +24,29 @@ TechnoMentum-UI is a component library from where you can pick up different comp
 
 [Click here to watch Video](https://user-images.githubusercontent.com/89827782/153398783-c079e5d5-2f3d-4d69-8546-0507b4532983.mp4)
 
+### 3.Badges 
+#### a)Text with a badge
+#### b)Text with large badge
+#### c)Button with badge on the left
+#### d)Button with a badge
+#### e)Avatar with a badge
+
+[Click here to watch Video](https://user-images.githubusercontent.com/89827782/153400762-406dba92-fc3d-4502-9c10-43e6059bc108.mp4)
+
+### 4.Buttons
+#### a)Primary Buttons
+#### b)Outlined Buttons
+#### c)Rounded Buttons
+#### d)Disabled Buttons
+#### e)Links
+#### f)Floating Buttons
+#### g)Buttons with Icon
+
+[Click here to watch Video](https://user-images.githubusercontent.com/89827782/153401726-37a0fae8-77d2-4250-aba1-eca7d015deb5.mp4)
+
+
+
+
 
 
 
