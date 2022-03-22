@@ -1,68 +1,60 @@
-@import url('/utility.css');
-@import url('./css_docs/colors.css');
-@import url('./css_docs/Typography.css');
-@import url('./css_docs/Reset.css');
-
-
-
+@import url("./utility.css");
+@import url("./css_docs/colors.css");
+@import url("./css_docs/Typography.css");
+@import url("./css_docs/Reset.css");
 
 .dr {
-
-    background-color: var(--primary-colorone);
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    border: none;
-    box-shadow: var(--box-shadow);
-    margin: 2rem;
-    padding: 1rem;
+	background-color: var(--primary-colorone);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border: none;
+	box-shadow: var(--box-shadow);
+	margin: 2rem;
+	padding: 1rem;
 }
 
 .dr-header {
-    padding-bottom: .5rem;
+	padding-bottom: 0.5rem;
 }
 
 .dr-heading {
-    color: var(--valid-dark);
+	color: var(--valid-dark);
 }
 
 .subtext {
-    color: var(--text-color-dark);
+	color: var(--text-color-dark);
 }
 
 .dr-elements {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-right: 2rem;
-    margin-left: 1.5rem;
-    font-size: 1.2rem;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-right: 2rem;
+	margin-left: 1.5rem;
+	font-size: 1.2rem;
 }
 
 .li-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: var(--dark);
-    padding: .5rem 1rem;
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: var(--dark);
+	padding: 0.5rem 1rem;
 }
 
 .li-items:hover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: var(--dark);
-    padding: .5rem 1rem;
-    border-radius: 3rem;
-    background-color: var(--valid-light);
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: var(--dark);
+	padding: 0.5rem 1rem;
+	border-radius: 3rem;
+	background-color: var(--valid-light);
 }
 
 .icon {
-    margin-right: auto;
+	margin-right: auto;
 }

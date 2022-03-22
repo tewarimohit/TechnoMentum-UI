@@ -1,83 +1,67 @@
-@import url('./Dev_Style.css');
+@import url("../Dev_Style.css");
 
-
-
-.alert-box{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1.5rem 1rem;
-    padding: 1.5rem 2rem;
-    border: 2px solid; 
-    border-radius: 5px;
-    
+.alert-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1.5rem 1rem;
+	padding: 1.5rem 2rem;
+	border: 2px solid;
+	border-radius: 5px;
 }
-.close-button{
-   
-    margin-left: 2rem;
-    padding: .3rem .8rem;
-    border-radius: 50%;
+.close-button {
+	margin-left: 2rem;
+	padding: 0.3rem 0.8rem;
+	border-radius: 50%;
 }
 
-.close-button:hover{
-    margin-left: 2rem;
-    padding: .3rem .8rem;
-    border-radius: 50%;
-    cursor: pointer;
-
+.close-button:hover {
+	margin-left: 2rem;
+	padding: 0.3rem 0.8rem;
+	border-radius: 50%;
+	cursor: pointer;
 }
-.close-button:hover{
-    cursor: pointer;
-}
-
-.normal-alert{
-   
-    color: var(--normal-dark);
-    background-color: var(--normal-light);
-    border-color: var(--normal-dark);
-    
+.close-button:hover {
+	cursor: pointer;
 }
 
-.normal-close-button{
-    
-    color: var(--normal-light);
-    background-color: var(--normal-dark);
+.normal-alert {
+	color: var(--normal-dark);
+	background-color: var(--normal-light);
+	border-color: var(--normal-dark);
 }
 
-
-
-.invalid-alert{
-    color: var(--invalid-dark);
-    background-color: var(--invalid-light);
-    border-color: var(--invalid-dark);
-}
-.invalid-close-button{
-    
-    color: var(--invalid-light);
-    background-color: var(--invalid-dark);
+.normal-close-button {
+	color: var(--normal-light);
+	background-color: var(--normal-dark);
 }
 
-
-.valid-alert{
-    color: var(--valid-dark);
-    background-color: var(--valid-light);
-    border-color: var(--valid-dark);
+.invalid-alert {
+	color: var(--invalid-dark);
+	background-color: var(--invalid-light);
+	border-color: var(--invalid-dark);
 }
-.valid-close-button{
-    
-    color: var(--valid-light);
-    background-color: var(--valid-dark);
+.invalid-close-button {
+	color: var(--invalid-light);
+	background-color: var(--invalid-dark);
 }
 
-
-.warning-alert{
-    color: var(--warning-dark);
-    background-color: var(--warning-light);
-    border-color: var(--warning-dark);
+.valid-alert {
+	color: var(--valid-dark);
+	background-color: var(--valid-light);
+	border-color: var(--valid-dark);
 }
-.warning-close-button{
-    
-    color: var(--warning-light);
-    background-color: var(--warning-dark);
+.valid-close-button {
+	color: var(--valid-light);
+	background-color: var(--valid-dark);
+}
+
+.warning-alert {
+	color: var(--warning-dark);
+	background-color: var(--warning-light);
+	border-color: var(--warning-dark);
+}
+.warning-close-button {
+	color: var(--warning-light);
+	background-color: var(--warning-dark);
 }

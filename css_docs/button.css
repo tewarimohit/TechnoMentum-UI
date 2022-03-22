@@ -1,347 +1,310 @@
-@import url('/utility.css');
-@import url('./css_docs/colors.css');
-@import url('./css_docs/Typography.css');
-@import url('./css_docs/Reset.css');
+@import url("./utility.css");
+@import url("./css_docs/colors.css");
+@import url("./css_docs/Typography.css");
+@import url("./css_docs/Reset.css");
 
 :root {
-    --padding-button: .5rem 1rem;
-    --margin-button: 0.5rem .5rem;
+	--padding-button: 0.5rem 1rem;
+	--margin-button: 0.5rem 0.5rem;
 }
 
 /* Primary */
 
 .primary-btn {
-    padding: var(--padding-button);
-    font-size: 1rem;
-    margin: var(--margin-button);
-    border: none;
-    box-shadow: var(--button-shadow);
-    border-radius: 0.2rem;
+	padding: var(--padding-button);
+	font-size: 1rem;
+	margin: var(--margin-button);
+	border: none;
+	box-shadow: var(--button-shadow);
+	border-radius: 0.2rem;
 }
 
 .primary-btn:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
 
-
-
 .normal-btn {
-
-    color: var(--primary-colorone);
-    background-color: var(--normal-medium);
+	color: var(--primary-colorone);
+	background-color: var(--normal-medium);
 }
 
 .warning-btn {
-    color: var(--primary-colorone);
-    background-color: var(--warning-dark);
-
+	color: var(--primary-colorone);
+	background-color: var(--warning-dark);
 }
 
 .valid-btn {
-    color: var(--primary-colorone);
-    background-color: var(--valid-dark);
-
+	color: var(--primary-colorone);
+	background-color: var(--valid-dark);
 }
 
 .invalid-btn {
-    color: var(--primary-colorone);
-    background-color: var(--invalid-dark);
-
+	color: var(--primary-colorone);
+	background-color: var(--invalid-dark);
 }
 
 .dark-btn {
-    color: var(--normal-light);
-    background-color: var(--dark);
+	color: var(--normal-light);
+	background-color: var(--dark);
 }
 
 /* Outlined */
 
 .outlined-btn {
-    padding: var(--padding-button);
-    font-size: 1rem;
-    margin: var(--margin-button);
-    border: 2px solid;
-    box-shadow: var(--button-shadow);
-    border-radius: 0.2rem;
+	padding: var(--padding-button);
+	font-size: 1rem;
+	margin: var(--margin-button);
+	border: 2px solid;
+	box-shadow: var(--button-shadow);
+	border-radius: 0.2rem;
 }
 
 .outlined-btn:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
-
 
 .olined-normal-btn {
-
-    color: var(--normal-medium);
-    background-color: var(--primary-colorone);
+	color: var(--normal-medium);
+	background-color: var(--primary-colorone);
 }
 
-
 .olined-warning-btn {
-    color: var(--warning-dark);
-    background-color: var(--primary-colorone);
-
+	color: var(--warning-dark);
+	background-color: var(--primary-colorone);
 }
 
 .olined-valid-btn {
-    color: var(--valid-dark);
-    background-color: var(--primary-colorone);
-
+	color: var(--valid-dark);
+	background-color: var(--primary-colorone);
 }
 
 .olined-invalid-btn {
-    color: var(--invalid-dark);
-    background-color: var(--primary-colorone);
-
+	color: var(--invalid-dark);
+	background-color: var(--primary-colorone);
 }
 
 .olined-dark-btn {
-    color: var(--dark);
-    background-color: var(--normal-light);
+	color: var(--dark);
+	background-color: var(--normal-light);
 }
-
 
 /* Outlined hover properties */
 
 .olined-normal-btn:hover {
-
-    color: var(--primary-colorone);
-    background-color: var(--normal-medium);
-
+	color: var(--primary-colorone);
+	background-color: var(--normal-medium);
 }
 
-
 .olined-warning-btn:hover {
-    color: var(--primary-colorone);
-    background-color: var(--warning-dark);
-
+	color: var(--primary-colorone);
+	background-color: var(--warning-dark);
 }
 
 .olined-valid-btn:hover {
-
-    color: var(--primary-colorone);
-    background-color: var(--valid-dark);
+	color: var(--primary-colorone);
+	background-color: var(--valid-dark);
 }
 
 .olined-invalid-btn:hover {
-    color: var(--primary-colorone);
-    background-color: var(--invalid-dark);
-
+	color: var(--primary-colorone);
+	background-color: var(--invalid-dark);
 }
 
-
 .olined-dark-btn:hover {
-    color: var(--normal-light);
-    background-color: var(--dark);
+	color: var(--normal-light);
+	background-color: var(--dark);
 }
 
 .rounded-btn {
-    padding: var(--padding-button);
-    font-size: 1rem;
-    margin: var(--margin-button);
-    border: none;
-    box-shadow: var(--button-shadow);
-    border-radius: 0.2rem;
+	padding: var(--padding-button);
+	font-size: 1rem;
+	margin: var(--margin-button);
+	border: none;
+	box-shadow: var(--button-shadow);
+	border-radius: 0.2rem;
 }
 
 .rounded-btn1 {
-
-    border-radius: .5rem;
+	border-radius: 0.5rem;
 }
 
 .rounded-btn2 {
-    border-radius: .7rem;
+	border-radius: 0.7rem;
 }
 
 .rounded-btn3 {
-    border-radius: 1rem;
+	border-radius: 1rem;
 }
 
 .rounded-btn4 {
-    border-radius: 3rem;
+	border-radius: 3rem;
 }
 
 .rounded-btn5 {
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 /* rounded button hover */
 
 .rounded-btn:hover {
-    background-color: var(--normal-dark);
-    cursor: pointer;
+	background-color: var(--normal-dark);
+	cursor: pointer;
 }
 
-
 .disabled-btn {
-    padding: var(--padding-button);
-    font-size: 1rem;
-    margin: var(--margin-button);
-    border: none;
-    box-shadow: var(--button-shadow);
-    border-radius: 0.2rem;
+	padding: var(--padding-button);
+	font-size: 1rem;
+	margin: var(--margin-button);
+	border: none;
+	box-shadow: var(--button-shadow);
+	border-radius: 0.2rem;
 }
 
 .disabled-btn1 {
-    color: var(--disabled-button);
-    background-color: var(--primary-colorone);
-
+	color: var(--disabled-button);
+	background-color: var(--primary-colorone);
 }
 
 .disabled-btn2 {
-    color: var(--primary-colorone);
-    background-color: var(--disabled-button);
-
+	color: var(--primary-colorone);
+	background-color: var(--disabled-button);
 }
 
 /* Disabled button hover */
 .disabled-btn:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
-
 
 /* links */
 
 .link {
-
-    padding: var(--padding-button);
-    font-size: 1rem;
-    margin: var(--margin-button);
-    border: 2px solid;
-    border-radius: 0.2rem;
+	padding: var(--padding-button);
+	font-size: 1rem;
+	margin: var(--margin-button);
+	border: 2px solid;
+	border-radius: 0.2rem;
 }
 
 .prime-link1 {
-    color: var(--primary-colorone);
-    background-color: var(--primary-link);
-    border-color: var(--warning-dark);
+	color: var(--primary-colorone);
+	background-color: var(--primary-link);
+	border-color: var(--warning-dark);
 }
 
 .prime-link2 {
-    border-radius: 2rem;
-    color: var(--primary-link);
-    background-color: var(--primary-colorone);
+	border-radius: 2rem;
+	color: var(--primary-link);
+	background-color: var(--primary-colorone);
 }
 
 .sec-link1 {
-    border-radius: 50%;
-    border-color: var(--normal-dark);
-    color: var(--primary-colorone);
-    background-color: var(--secondary-link);
-
+	border-radius: 50%;
+	border-color: var(--normal-dark);
+	color: var(--primary-colorone);
+	background-color: var(--secondary-link);
 }
 
 .sec-link2 {
-    border-radius: 3rem;
-    color: var(--secondary-link);
-    background-color: var(--primary-colorone);
+	border-radius: 3rem;
+	color: var(--secondary-link);
+	background-color: var(--primary-colorone);
 }
 
 .link-text {
-
-    text-transform: uppercase;
-
-
+	text-transform: uppercase;
 }
-
 
 /* link hover */
 
-
 .link-text:hover {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
 }
 
 .prime-link2:hover {
-    color: var(--primary-colorone);
-    background-color: var(--primary-link);
-    border-color: var(--warning-dark)
+	color: var(--primary-colorone);
+	background-color: var(--primary-link);
+	border-color: var(--warning-dark);
 }
 
 .sec-link2:hover {
-    color: var(--primary-colorone);
-    background-color: var(--secondary-link);
-    border-color: var(--normal-dark)
+	color: var(--primary-colorone);
+	background-color: var(--secondary-link);
+	border-color: var(--normal-dark);
 }
-
 
 /* Floating button */
 
 .floating-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid;
-    transition: all 0.5s ease-in;
-    padding: 0.7rem .9rem;
-    margin: 0.7rem;
-    box-shadow: var(--button-shadow);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid;
+	transition: all 0.5s ease-in;
+	padding: 0.7rem 0.9rem;
+	margin: 0.7rem;
+	box-shadow: var(--button-shadow);
 }
 
 .floating-btn1 {
-    border-radius: .7rem;
-    background-color: var(--normal-medium);
-    color: var(--primary-colorone);
-    border-color: var(--normal-dark);
+	border-radius: 0.7rem;
+	background-color: var(--normal-medium);
+	color: var(--primary-colorone);
+	border-color: var(--normal-dark);
 }
 
 .floating-btn2 {
-    border-radius: 50%;
-    background-color: var(--primary-link);
-    color: var(--primary-colorone);
-    border-color: var(--warning-dark);
+	border-radius: 50%;
+	background-color: var(--primary-link);
+	color: var(--primary-colorone);
+	border-color: var(--warning-dark);
 }
-
 
 /* floating button hover */
 
 .floating-btn1:hover {
-    background-color: var(--hover-color-header);
-    transform: translateY(-15%);
-    transform: translateX(15%);
+	background-color: var(--hover-color-header);
+	transform: translateY(-15%);
+	transform: translateX(15%);
 }
 
 .floating-btn2:hover {
-    background-color: var(--warning-light);
-    transform: translateY(-15%);
-
+	background-color: var(--warning-light);
+	transform: translateY(-15%);
 }
-
 
 /* icon button */
 
 .icon-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid;
-    padding: .8rem 1rem;
-    margin: 0.7rem;
-    box-shadow: var(--button-shadow);
-    font-size: 1rem;
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid;
+	padding: 0.8rem 1rem;
+	margin: 0.7rem;
+	box-shadow: var(--button-shadow);
+	font-size: 1rem;
 }
 
 .icon-btn1 {
-    border-radius: 50%;
-    background-color: var(--primary-link);
-    color: var(--primary-colorone);
-    border-color: var(--warning-dark);
+	border-radius: 50%;
+	background-color: var(--primary-link);
+	color: var(--primary-colorone);
+	border-color: var(--warning-dark);
 }
 
 .icon-btn2 {
-    border-radius: 2rem;
-    background-color: var(--primary-colorone);
-    color: var(--normal-medium);
-    border-color: var(--normal-dark);
+	border-radius: 2rem;
+	background-color: var(--primary-colorone);
+	color: var(--normal-medium);
+	border-color: var(--normal-dark);
 }
 
 .fa-margin-r {
-    margin-right: 1rem;
+	margin-right: 1rem;
 }
 
 /* icon hover */
 .icon-btn:hover {
-    cursor: pointer;
+	cursor: pointer;
 }

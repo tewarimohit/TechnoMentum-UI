@@ -1,93 +1,79 @@
-@import url('/utility.css');
-@import url('./css_docs/colors.css');
-@import url('./css_docs/Typography.css');
-@import url('./css_docs/Reset.css');
-
+@import url("./utility.css");
+@import url("./css_docs/colors.css");
+@import url("./css_docs/Typography.css");
+@import url("./css_docs/Reset.css");
 
 .chip-holder {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 1rem 1rem;
-    margin: 1rem 1rem;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1rem 1rem;
+	margin: 1rem 1rem;
 }
 
-
 .chip {
-    position: relative;
-    padding: .5rem 2rem;
-    border-radius: 50px;
-
+	position: relative;
+	padding: 0.5rem 2rem;
+	border-radius: 50px;
 }
 
 button {
-    position: relative;
-    background-color: transparent;
-    border: none;
-    margin: 0px;
+	position: relative;
+	background-color: transparent;
+	border: none;
+	margin: 0px;
 }
 
 .close {
-
-    color: var(--primary-colorone);
-    font-size: 50px;
-    margin-left: 2rem;
-
+	color: var(--primary-colorone);
+	font-size: 50px;
+	margin-left: 2rem;
 }
 
 /* chip colors */
 
 .chip-one {
-    background-color: var(--valid-dark);
-    color: var(--primary-colorone);
-
+	background-color: var(--valid-dark);
+	color: var(--primary-colorone);
 }
 
 .chip-two {
-    background-color: var(--warning-dark);
-    color: var(--primary-colorone);
+	background-color: var(--warning-dark);
+	color: var(--primary-colorone);
 }
 
 .chip-three {
-    background-color: var(--normal-dark);
-    color: var(--primary-colorone);
+	background-color: var(--normal-dark);
+	color: var(--primary-colorone);
 }
 
 .chip-four {
-    background-color: var(--invalid-dark);
-    color: var(--primary-colorone);
+	background-color: var(--invalid-dark);
+	color: var(--primary-colorone);
 }
 
 /* chip hover */
 .chip1-close:hover {
-
-    background-color: var(--valid-light);
-    cursor: pointer;
-    border-radius: 50%;
-
+	background-color: var(--valid-light);
+	cursor: pointer;
+	border-radius: 50%;
 }
 
 .chip2-close:hover {
-
-    background-color: var(--primary-link);
-    cursor: pointer;
-    border-radius: 50%;
-
+	background-color: var(--primary-link);
+	cursor: pointer;
+	border-radius: 50%;
 }
 
 .chip3-close:hover {
-
-    background-color: var(--normal-light);
-    cursor: pointer;
-    border-radius: 50%;
-
+	background-color: var(--normal-light);
+	cursor: pointer;
+	border-radius: 50%;
 }
 
 .chip4-close:hover {
-
-    background-color: var(--invalid-light);
-    cursor: pointer;
-    border-radius: 50%;
-
+	background-color: var(--invalid-light);
+	cursor: pointer;
+	border-radius: 50%;
 }
