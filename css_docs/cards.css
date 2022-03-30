@@ -1,172 +1,186 @@
-
-@import url('./Dev_Style.css');
+@import url("../Dev_Style.css");
 
 :root {
-    --no-border: none;
-    --icon-font: 30px;
+	--no-border: none;
+	--icon-font: 30px;
 }
 
-
-
-
 .card {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--primary-colorone);
-    border: 2px solid #777;
-
-
+	display: flex;
+	flex-direction: column;
+	background-color: var(--primary-colorone);
+	border: 2px solid #777;
 }
 
 .card-zero {
-    max-width: 350px;
+	max-width: 350px;
 }
 
 .card.card-shadow {
-    border: none;
-    box-shadow: var(--box-shadow);
+	border: none;
+	box-shadow: var(--box-shadow);
 }
 
 .card-header {
-    padding: var(--padding);
-    font-size: 1.7rem;
-    margin-bottom: .5rem;
-font-weight: 600;
+	padding: var(--padding);
+	font-size: 1.7rem;
+	margin-bottom: 0.5rem;
+	font-weight: 600;
 }
 
 .card-header.card-image {
-    overflow: hidden;
-    padding: 0;
-
+	overflow: hidden;
+	padding: 0;
 }
 
-.card-header.card-image>img {
-    display: block;
-    width: 100%;
-    max-height: 200px;
-    margin-bottom: .5rem;
-    aspect-ratio: 16/9;
-    object-position: center;
+.card-header.card-image > img {
+	display: block;
+	width: 100%;
+	max-height: 200px;
+	margin-bottom: 0.5rem;
+	aspect-ratio: 16/9;
+	object-position: center;
 }
 
-.card-header.card-image>span {
-
-    margin-left: 1rem;
-
+.card-header.card-image > span {
+	margin-left: 1rem;
 }
 
-.card-header.card-image.card-one>img {
-    display: block;
-    width: 100%;
-    max-height: 200px;
-    margin-bottom: .5rem;
-    margin-top: .5rem;
-    aspect-ratio: 16/9;
-    object-position: center;
+.card-header.card-image.card-one > img {
+	display: block;
+	width: 100%;
+	max-height: 200px;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	aspect-ratio: 16/9;
+	object-position: center;
 }
 
 .card-header.card-image.card-two {
-    overflow: hidden;
-    position: relative;
-    padding: 0;
-
+	overflow: hidden;
+	position: relative;
+	padding: 0;
 }
 
-.card-header.card-image.card-two>span {
-    position: absolute;
-    top: 8.5rem;
-    margin-left: 1rem;
-    color: white;
-
+.card-header.card-image.card-two > span {
+	position: absolute;
+	top: 8.5rem;
+	margin-left: 1rem;
+	color: white;
 }
 
-.card:hover>.card-header.card-image>img {
-
-    transform: scale(1.1);
-    transition: transform 300ms linear 200ms;
+.card:hover > .card-header.card-image > img {
+	transform: scale(1.1);
+	transition: transform 300ms linear 200ms;
 }
-
 
 .card-body {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 1.2rem;
-    margin-left: 1rem 1rem;
-    font-weight: 800;
-text-align: justify;
-    color: var(--normal-dark);
+	display: flex;
+	justify-content: flex-start;
+	font-size: 1.2rem;
+	margin-left: 1rem 1rem;
+	font-weight: 800;
+	text-align: justify;
+	color: var(--normal-dark);
 }
 
 .card-footer {
-    display: flex;
-    margin-top: 1rem;
-    padding: .1rem .1rem;
-
+	display: flex;
+	margin-top: 1rem;
+	padding: 0.1rem 0.1rem;
 }
 
 .read-btn {
-    color: var(--normal-dark);
-    font-size: 1rem;
-    font-weight: 600;
-    background: var(--primary-colorone);
-    padding: .3em;
-    margin: .3rem;
-    border: 2px solid var(--normal-dark);
-    border-radius: 2rem;
+	color: var(--normal-dark);
+	font-size: 1rem;
+	font-weight: 600;
+	background: var(--primary-colorone);
+	padding: 0.3em;
+	margin: 0.3rem;
+	border: 2px solid var(--normal-dark);
+	border-radius: 2rem;
 }
 
 .read-btn:hover {
-    color: var(--normal-dark);
-    font-weight: 600;
-    background: var(--normal-light);
-    border-radius: 2rem;
-    cursor: pointer;
+	color: var(--normal-dark);
+	font-weight: 600;
+	background: var(--normal-light);
+	border-radius: 2rem;
+	cursor: pointer;
 }
 
 .icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    border: none;
-    padding: .1rem .5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	border: none;
+	padding: 0.1rem 0.5rem;
 }
 
 .all-icon {
-    display: flex;
-    margin-left: auto;
+	display: flex;
+	margin-left: auto;
 }
 
 .icons:hover {
-
-    background-color: var(--normal-light);
-    border-radius: 50%;
-
-
+	background-color: var(--normal-light);
+	border-radius: 50%;
 }
 
 .heart {
-    color: var(--normal-dark);
-    border: var(--no-border);
-    font-size: var(--icon-font);
-
+	color: var(--normal-dark);
+	border: var(--no-border);
+	font-size: var(--icon-font);
 }
 
 .share {
-    color: var(--normal-dark);
-    border: var(--no-border);
-    font-size: var(--icon-font);
-
+	color: var(--normal-dark);
+	border: var(--no-border);
+	font-size: var(--icon-font);
 }
 
 .more {
-    color: var(--normal-dark);
-    border: var(--no-border);
-    font-size: var(--icon-font);
-
+	color: var(--normal-dark);
+	border: var(--no-border);
+	font-size: var(--icon-font);
 }
 
 .icons-position {
-    margin-left: auto;
+	margin-left: auto;
 }
 
+.card-horizontal {
+	display: flex;
+	flex-direction: row;
+	min-width: 600px;
+	background-color: var(--primary-colorone);
+}
+.horizontal-card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	font-size: 1.2rem;
+	margin-left: 1rem 1rem;
+	font-weight: 800;
+	text-align: justify;
+	color: var(--normal-dark);
+}
+
+.card-horizontal.card-shadow {
+	border: none;
+	box-shadow: var(--box-shadow);
+}
+
+.badge {
+	position: relative;
+	width: 0.5rem;
+	height: 1rem;
+	margin-left: auto;
+	margin-top: 2rem;
+	background-color: var(--normal-dark);
+	color: var(--primary-colorone);
+}
+.badge:hover {
+	cursor: pointer;
+}

@@ -1,59 +1,54 @@
-@import url('/utility.css');
-@import url('./css_docs/colors.css');
-@import url('./css_docs/Typography.css');
-@import url('./css_docs/Reset.css');
-
+@import url("./utility.css");
+@import url("./css_docs/colors.css");
+@import url("./css_docs/Typography.css");
+@import url("./css_docs/Reset.css");
 
 .form {
-    display: flex;
-    justify-content: center;
-    width: 20rem;
-    height: 2rem;
-    margin-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+	width: 20rem;
+	height: 2rem;
+	margin-bottom: 2rem;
 }
 
 .input-field {
-    width: 70%;
-    height: 100%;
-    font-size: 1rem;
-    text-align: center;
-    border: 2px solid var(--dark);
-    border-radius: 4px;
-    outline: none;
+	width: 70%;
+	height: 100%;
+	font-size: 1rem;
+	text-align: center;
+	border: 2px solid var(--dark);
+	border-radius: 4px;
+	outline: none;
 }
 
 .normal-input {
-    background-color: var(--primary-colorone);
-    color: var(--normal-dark);
+	background-color: var(--primary-colorone);
+	color: var(--normal-dark);
 }
 
 .valid-input {
-    background-color: var(--primary-colorone);
-    color: var(--valid-dark);
+	background-color: var(--primary-colorone);
+	color: var(--valid-dark);
 }
 
-
 .invalid-input {
-    background-color: var(--primary-colorone);
-    color: var(--invalid-dark);
+	background-color: var(--primary-colorone);
+	color: var(--invalid-dark);
 }
 
 /* Focus */
 
-
 .normal-input:focus {
-    border-color: var(--normal-medium);
-    background-color: var(--normal-light);
+	border-color: var(--normal-medium);
+	background-color: var(--normal-light);
 }
-
 
 .valid-input:focus {
-    border-color: var(--valid-dark);
-    background-color: var(--valid-light);
+	border-color: var(--valid-dark);
+	background-color: var(--valid-light);
 }
 
-
 .invalid-input:focus {
-    border-color: var(--invalid-dark);
-    background-color: var(--invalid-light);
+	border-color: var(--invalid-dark);
+	background-color: var(--invalid-light);
 }
