@@ -24,6 +24,7 @@
 	margin: 1rem;
 }
 .badge {
+	position: absolute;
 	background-color: blueviolet;
 	color: white;
 	padding: 5px 7px;
@@ -59,11 +60,12 @@
 	position: relative;
 	left: -1rem;
 	top: -1rem;
+	padding: 4px 8px;
 }
 
 .textbadge2 {
 	position: relative;
-	padding: 6px 9px;
+	padding: 4px 9px;
 	font-size: 1.1rem;
 	font-weight: 900;
 	border-radius: 50%;
@@ -73,19 +75,22 @@
 .textbadge3 {
 	position: relative;
 	background-color: #ff1493;
+	padding: 4px 9px;
 	left: 1rem;
 	top: -1rem;
 }
 .textbadge4 {
 	position: relative;
 	left: 3.3rem;
+	padding: 5px 5px;
 	top: -1.3rem;
 }
 .textbadge5 {
 	position: relative;
-	padding: 4px 8.5px;
+	padding: 5px 10px;
 	left: 3.5rem;
 	top: 0rem;
+	border-radius: 50%;
 }
 
 .email-button {
