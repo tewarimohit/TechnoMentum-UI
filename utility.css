@@ -1,8 +1,3 @@
-@import url("./css_docs/colors.css");
-@import url("./css_docs/Typography.css");
-@import url("./css_docs/Reset.css");
-@import url("./button.css");
-
 /* Positions */
 
 .pos-relative {
@@ -188,7 +183,7 @@
 }
 
 .fa {
-	font-size: 2rem;
+	font-size: 2rem !important;
 }
 
 .action-button:hover {
