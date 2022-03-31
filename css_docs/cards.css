@@ -1,10 +1,3 @@
-@import url("../Dev_Style.css");
-
-:root {
-	--no-border: none;
-	--icon-font: 30px;
-}
-
 .card {
 	display: flex;
 	flex-direction: column;
@@ -129,21 +122,15 @@
 }
 
 .heart {
-	color: var(--normal-dark);
-	border: var(--no-border);
-	font-size: var(--icon-font);
+	
 }
 
 .share {
 	color: var(--normal-dark);
-	border: var(--no-border);
-	font-size: var(--icon-font);
 }
 
 .more {
 	color: var(--normal-dark);
-	border: var(--no-border);
-	font-size: var(--icon-font);
 }
 
 .icons-position {

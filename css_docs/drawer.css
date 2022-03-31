@@ -1,8 +1,3 @@
-@import url("./utility.css");
-@import url("./css_docs/colors.css");
-@import url("./css_docs/Typography.css");
-@import url("./css_docs/Reset.css");
-
 .dr {
 	background-color: var(--primary-colorone);
 	display: flex;
